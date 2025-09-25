@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@theme {
+    --color-pri-100: #E76F51;
+
+}
+@plugin "daisyui";
+@plugin "daisyui/theme" {
+  name: "mytheme";
+  default: true; 
+
+
+  --color-base-100: #E76F51;
+}
